@@ -65,7 +65,7 @@ if(Meteor.isClient){
     Template.leaderboard.events({
         'click .player': function(){
             var playerId = this ._id;
-
+//package update
             Session.set('selectedPlayer' , playerId);
 
         },
